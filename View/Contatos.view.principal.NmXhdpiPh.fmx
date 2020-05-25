@@ -1,0 +1,243 @@
+inherited FormPrincipal_NmXhdpiPh: TFormPrincipal_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited LayoutPrincipal: TLayout
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    inherited LayoutBarraPrincipal: TLayout
+      Size.Width = 400.000000000000000000
+      inherited BarraPrincipal: TRectangle
+        Size.Width = 400.000000000000000000
+        inherited BotaoMenu: TButton
+          Position.Y = 4.000000000000000000
+          Size.Height = 48.000000000000000000
+        end
+        inherited BotaoNovo: TButton
+          Position.X = 320.000000000000000000
+          Position.Y = 4.000000000000000000
+          Size.Height = 48.000000000000000000
+        end
+        inherited LabelTitulo: TLabel
+          Size.Width = 201.000000000000000000
+          TextSettings.Font.Size = 26.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited BotaoRefresh: TButton
+          Position.X = 360.000000000000000000
+          Position.Y = 4.000000000000000000
+          Size.Height = 48.000000000000000000
+        end
+      end
+    end
+    inherited TabPrincipal: TTabControl
+      Size.Width = 400.000000000000000000
+      Size.Height = 558.000000000000000000
+      Sizes = (
+        400s
+        558s
+        400s
+        558s
+        400s
+        558s)
+      inherited TabLista: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited ListaDeContatos: TListBox
+          Size.Width = 400.000000000000000000
+          Size.Height = 558.000000000000000000
+          ItemHeight = 55.000000000000000000
+          Viewport.Width = 400.000000000000000000
+          Viewport.Height = 558.000000000000000000
+          inherited CaixaPesquisa: TSearchBox
+            Size.Width = 400.000000000000000000
+          end
+        end
+      end
+      inherited TabExibe: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited LayExibeId: TLayout
+          Size.Width = 400.000000000000000000
+          inherited LabelNome: TLabel
+            Size.Width = 380.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited LNome: TLabel
+            Size.Width = 380.000000000000000000
+          end
+        end
+        inherited Layout1: TLayout
+          Size.Width = 400.000000000000000000
+          inherited LabelTelFixo: TLabel
+            Size.Width = 380.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited LTelefone: TLabel
+            Size.Width = 380.000000000000000000
+          end
+        end
+        inherited Layout2: TLayout
+          Size.Width = 400.000000000000000000
+          inherited LabelTelCel: TLabel
+            Size.Width = 380.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited LCelular: TLabel
+            Size.Width = 380.000000000000000000
+          end
+        end
+        inherited Layout3: TLayout
+          Size.Width = 400.000000000000000000
+          inherited LabelEmail: TLabel
+            Size.Width = 380.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited Lemail: TLabel
+            Size.Width = 380.000000000000000000
+          end
+        end
+      end
+      inherited TabNovo: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited VertScrollBox1: TVertScrollBox
+          Size.Width = 400.000000000000000000
+          Size.Height = 558.000000000000000000
+          Viewport.Width = 400.000000000000000000
+          Viewport.Height = 558.000000000000000000
+          inherited Layout4: TLayout
+            Size.Width = 400.000000000000000000
+            inherited Label1: TLabel
+              Size.Width = 380.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited EdNome: TEdit
+              Size.Width = 380.000000000000000000
+            end
+          end
+          inherited Layout5: TLayout
+            Size.Width = 400.000000000000000000
+            inherited Label3: TLabel
+              Size.Width = 380.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited EdTelefone: TEdit
+              Size.Width = 380.000000000000000000
+            end
+          end
+          inherited Layout6: TLayout
+            Size.Width = 400.000000000000000000
+            inherited Label5: TLabel
+              Size.Width = 380.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited EdCelular: TEdit
+              Size.Width = 380.000000000000000000
+            end
+          end
+          inherited Layout7: TLayout
+            Size.Width = 400.000000000000000000
+            inherited Label7: TLabel
+              Size.Width = 380.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited EdEmail: TEdit
+              Size.Width = 380.000000000000000000
+            end
+          end
+          inherited LaySec: TLayout
+            Size.Width = 400.000000000000000000
+          end
+        end
+      end
+    end
+  end
+  inherited LaySplash: TLayout
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    inherited Rectangle1: TRectangle
+      Size.Width = 400.000000000000000000
+      Size.Height = 615.000000000000000000
+      inherited LayImg: TLayout
+        inherited LayImg2: TLayout
+          inherited Image1: TImage
+            MultiResBitmap.Height = 64
+            MultiResBitmap.Width = 64
+            MultiResBitmap = <
+              item
+                Width = 64
+                Height = 64
+                PNG = {
+                  89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+                  DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  06FD49444154785EED9B796C145518C0BF37B367B780DCF78DB45C1A81161042
+                  2D870512A9C6048180C42098887F603C83284431F1886022F10F055448503012
+                  EA512C12A80841A820416EA5459242A11C22DDEE39337EDFEC5B7676D9ED0E9D
+                  596C3BFC9281796FB6B3F37DEFBBDE9B7D0C5230A054763A98AF4896A098092C
+                  1F82D0191CD0915F6EDA04A1169FB546569403C0A04402F7F6BFA609017E358E
+                  5B15A0286CD00FBE396121FC960D6CBD796FF34692CE32515C7A7CAA7B2330A6
+                  F05E953805DC57267B4261FF06EC7D8C77B534BEB18BAE79478A042F6FC714A0
+                  0A2FF9CBF17464A4A765A2C850E1B0BB0AA34A1022BD0A0B4AF5EBF0AC450B4F
+                  3001F2542B5FA6A8B2ABFFE496FAE6321066D0B9254017CFC9F7CD544F29DA33
+                  A83BD562029E5E14A98A79B37305BBEC9B6239E10926F6953DDE8705F48462DE
+                  653918138A05062C8FB72D87A2409E000A74E56DCBC142D04D807A6F3BDEB61E
+                  216F07013C9E94F381160FCA1E29842C8CE515C00695D6C7CD8E5261434759D8
+                  DF06D3BBDBE01E3BEF6C625C0B027C7B3E0C9F9E09435897543A154041E2E391
+                  0E28E828463A9A38E5972458743088092E3DBA5C606267B1D9084F3CD4498409
+                  F8CC7AD06501AF0CB2C3BC3E36DE023853A7805FD26963770897C8A07F762CA1
+                  7D5E1586F74E86782B35BA14F0C6103BCCEC1553C0A37B0270FA86CC5B4D8381
+                  AD04D83ACEC95B005F9D0BC39BC7D22B20E3598082E7D036028C6E2F401F134A
+                  0E1C6868EB307E9F2819530009BE68800DF64E74C1E6079DB02EDF09A5E35DF0
+                  3D1E85E8A38DC1894FBBF201077C39C6099D5DE62821230A20E1296B2CBAD70E
+                  ADECF10FDA0FAD60F508475C4CD1038DFCEA114E988CC1AD5716832F4699A384
+                  8C28E019AC17C675483DCAF4D82FE5DA55D7D0CB8BF8F9B158B947314B09A62B
+                  C08E777C326174F75E96E1132C4ECE69E22DCEC3E1A9BEFAAC6014C68F641643
+                  4A5831CCC15B8DC37405E46034D69A3D09BFA022001F9E0EC1EC7D01F086F905
+                  24AF5DFAAF27D37F15D37032829888569D4A1FE91BC27405B44A18A863D763E9
+                  F26A50816A5FACDD3A213E24633C1660A4D464509E3FFEAFB1746CBA026AFCF1
+                  65C594AE22B4E3698B4CB97F76EC2BCFFBD21753C5DD93C792B21A0936FEAD31
+                  A74662BA02AABC0A54E21185FCB4ACC0A516296BF29CAA4947D985357B4338F0
+                  E90A78CABC1E5260FE81C0CD63E91F38F33101D315407C80A6A91D5B0FBA0555
+                  6A5AE1C91DD656363C8264FA94FB89FD5764D8A739B4B1C4081951008DECBB27
+                  4220A7B07012FE599CADD1FF0DD15753DB9F34E8EBA9C8880288F567C33013A3
+                  FEB60B12D4061408E1F39F45D7F80C2729D37F09C0917FD20BD4461324AF9863
+                  F1B790310510473103BC703808053BFD707F990FA6EDF6C3FBE81EE946FE4E92
+                  510510348694EEA862A358703B50E08BD2DE58BD9312D315908541BBA88B08CB
+                  87DA61CB58271C2A72C3AF935CB0ABD0051593DDB00FCF378C76C2E281761889
+                  85105584A9A8AA8B2920B77566C6CAB4BBD2082F1B6287F2096E588533B6193D
+                  6DEA4347A37814F2EB116D05757D713DD6F2DB7076482571E2E78853376408F0
+                  504135C418CD71BBD6940A5314400290204FF4B241F66D3E584FAC136862F41D
+                  FEFD70548C162A757FE6B502296E2D4EA9A387D1394014C30A5832D8AE0AE04A
+                  52B0D1AAD99F388A7B6A25D88E955BC5553965F5D7C31D1190D6F3B49454272F
+                  96C8CD66F7366E068614400B1B73121E82D25D29A63ECAF3A377F8A0784F0016
+                  FE1684C5BF0761DEFE004C2AF743E12E3F2C3F1A82C309A990DCE0ED61F6B815
+                  9FDDA8BC5435C0CBA8F8C1066383A1BF9EDF2F5E781AF192EAB0FAC003B08899
+                  852EF1347E26F178A49B88990160E7C588556821E11FEF11B302BAE73B585425
+                  834AE5E7738CBDA430B4284ACB5D66AECF45D98A66BFE4487CE5436E96B87E40
+                  EB0B6455177102F6BF2C8ADA8C595F4A68492D919538EFA75812452BBC113224
+                  82F9902B3C7728083F627CA9C6404A3342A3C213865C201F0B19ED0CCF2C2EA3
+                  F553F648067D1F5596D712CAE9C6BA80E55F8CDC7D35A64701F472F4A3E1199A
+                  8D64088A179466D3A12B08D28DE8957373811664F4084FE8B2008252D302FA81
+                  44371BE67EDED9C4B84A3F90C0426C4DA5C93F9068C9349B3A2053DC55007835
+                  8BF8560365A71F4A5EE14DCBA1B83CB5E40217224DEBA188705E50B796591441
+                  8103023028E16DEBC1E412813615D2F611DE6521A44A56E7D921D08E4AC6C4D7
+                  79AF7550C425C767B0A05A07D08E4A19E44DEA052BA0C09613D3DC9BE9345208
+                  31A638C5ACF9B4A9506DB760140C7C59927B6E740BEDCD4A907652FA3CEEF1F8
+                  918DBCABC581C27FEDB0B9261C9CCEEA7997FAEE321E456139A5BE5902482B68
+                  6B19EF6DE648950A88AF9D9CEADED4E0E6692D83372B0EDA57475BCB40867CD4
+                  5E172642277EB949A348708931A841FBDEAF50AABBE1F989021EBFAC01E03F5A
+                  4CA3A8B3F2A4980000000049454E44AE426082}
+                FileName = 'C:\JRD\Testes\Contatos\MeusContatos.png'
+              end>
+          end
+        end
+      end
+    end
+  end
+  inherited MenuPrincipal: TMultiView
+    inherited LabelSobre: TLabel
+      TextSettings.Font.StyleExt = {00040000000000000005000000}
+    end
+  end
+end
